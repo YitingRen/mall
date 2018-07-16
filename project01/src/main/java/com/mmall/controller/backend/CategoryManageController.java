@@ -76,7 +76,8 @@ public class CategoryManageController {
         return ServerResponse.createByErrorMessage("You are not admin");
     }
 
-
+    @RequestMapping("get_CategoryAndDeepChildren_Category.do")
+    @ResponseBody
     public ServerResponse getCategoryAndDeepChildrenCategory(HttpSession session, @RequestParam(value = "categoryId",defaultValue = "0") int categoryId){
         User user =(User) session.getAttribute(Const.CURRENT_USER);
         if(user ==null){

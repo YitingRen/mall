@@ -117,8 +117,8 @@
       <file leaf-file-name="CategoryManageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="85" column="78" selection-start-line="85" selection-start-column="78" selection-end-line="85" selection-end-column="78" />
+            <state relative-caret-position="198">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,10 +228,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-321" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="468" />
     <option name="y" value="23" />
-    <option name="width" value="1252" />
+    <option name="width" value="1440" />
     <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -582,12 +582,12 @@
       <workItem from="1531127313576" duration="1007000" />
       <workItem from="1531128845747" duration="3660000" />
       <workItem from="1531291873540" duration="1943000" />
-      <workItem from="1531587280020" duration="13494000" />
+      <workItem from="1531587280020" duration="13639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20724000" />
+    <option name="totallyTimeSpent" value="20869000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -599,11 +599,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="468" y="23" width="1440" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25608012" side_tool="true" visible="true" weight="0.28727272" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25608012" side_tool="true" visible="true" weight="0.3237705" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49887133" weight="0.32980132" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.052217454" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -622,8 +622,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.47210884" weight="0.32561308" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85082304" weight="0.5298013" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7439199" visible="true" weight="0.28727272" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8434903" visible="true" weight="0.055793993" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.7439199" visible="true" weight="0.3237705" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8434903" visible="true" weight="0.055793993" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.1565097" side_tool="true" weight="0.18765639" />
@@ -1040,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="85" column="78" selection-start-line="85" selection-start-column="78" selection-end-line="85" selection-end-column="78" />
+        <state relative-caret-position="198">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
