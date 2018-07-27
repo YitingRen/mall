@@ -28,7 +28,7 @@ public class UserServiceImpl implements IUserService{
         }
 
 
-        //todo password login MD5
+        //
         String MD5Ppassword = MD5Util.MD5EncodeUtf8(password);
 
         User user =userMapper.selectLogin(username,password);

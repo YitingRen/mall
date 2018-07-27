@@ -12,23 +12,21 @@ import java.util.Properties;
  * Created by geely
  */
 public class PropertiesUtil {
-
-    private static Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
-
+    private static Logger logger=LoggerFactory.getLogger(PropertiesUtil.class);
     private static Properties props;
 
-    static {
-        String fileName = "mmall.properties";
-        props = new Properties();
+    static{
+        String filename="mmall.properties";
+        props=new Properties();
         try {
-            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().getResourceAsStream(fileName),"UTF-8"));
+            props.load(new InputStreamReader(PropertiesUtil.class.getResourceAsStream(filename),"utf-8"));
         } catch (IOException e) {
-            logger.error("配置文件读取异常",e);
+            e.printStackTrace();
         }
     }
 
     public static String getProperty(String key){
-        String value = props.getProperty(key.trim());
+        String value=props.getProperty(key.trim());
         if(StringUtils.isBlank(value)){
             return null;
         }
@@ -36,14 +34,12 @@ public class PropertiesUtil {
     }
 
     public static String getProperty(String key,String defaultValue){
-
-        String value = props.getProperty(key.trim());
+        String value=props.getProperty(key);
         if(StringUtils.isBlank(value)){
-            value = defaultValue;
+            value=defaultValue;
         }
         return value.trim();
     }
-
 
 
 }
